@@ -1,0 +1,43 @@
+
+
+
+/* header styles */
+header{
+    background: linear-gradient(180.00deg, rgb(17, 17, 17),rgba(119, 119, 119, 0) 100%);
+}
+.header{
+    max-width: 1200px;
+    margin: auto;
+}
+.header-main{
+    display: flex;
+}
+.title{
+    font-weight: 900;
+    color: rgb(255, 255, 255);
+}
+header h1{
+    font-size: 4.875rem;
+}
+p{
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 1rem;
+    font-weight: 400;
+}
+button{
+    padding: 16px 40px 16px 40px;
+    box-sizing: border-box;
+    border-radius: 42px;
+    color: rgb(255, 255, 255);
+    font-size: 18px;
+    font-weight: 600;
+}
+.btn1{
+    background: rgb(230, 83, 60);
+    border: none;
+}
+.btn2{
+    border: 1px solid rgb(255, 255, 255);
+    background-color: transparent;
+
+}
