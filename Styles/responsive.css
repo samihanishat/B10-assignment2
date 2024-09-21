@@ -1,0 +1,85 @@
+@media screen and (max-width:576px) {
+    .nav-link{
+        visibility: hidden;
+    }
+    nav{
+        position: relative;
+    }  
+    .bar{
+        visibility: visible;
+        position: absolute;
+        right: 10px;
+        top: 70px;
+    }
+    .header-main{
+        flex-direction: column;
+        margin-left: 30px;
+    }
+    .header-card1{
+        right: 0px;
+    }
+    .header-card2{
+        left: 0px;
+    }
+    .header-main button{
+        margin: 10px 0;
+    }
+
+    /* main section */
+
+    .habit-card{
+        flex-direction: column;
+    }
+    .habit-card p{
+        margin: auto;
+    }
+
+    .Run{
+        flex-direction: column;
+    }
+    .run-description{
+        max-width: 100%;
+    }
+    .img-run1{
+        width: 100%;
+    }
+    .exercise{
+        grid-template-columns: auto auto;
+    }
+    .exercise-div3, .exercise-div6{
+        display: none;
+    }
+    .exercise3{
+        display: none;
+    }
+    .exercise6{
+        display: none;
+    }
+
+
+
+
+
+    .BMI-calculator1{
+        flex-direction: column;
+        padding: 20px;
+        gap: 30px;
+    }
+
+
+    .trainers{
+        grid-template-columns: auto;
+    }
+    .trainer1{
+        display: none;
+    }
+    .trainer4{
+        display: none;
+        }
+
+
+    .footer{
+        flex-direction: column;
+        align-items: center;
+    }
+}

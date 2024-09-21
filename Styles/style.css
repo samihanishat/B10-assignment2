@@ -26,6 +26,9 @@ header{
     display: flex;
 }
   /* nav styles */
+.bar{
+    visibility: hidden;
+}
 nav{
     display: flex;
     justify-content: space-between;
@@ -269,7 +272,6 @@ td,th{
 /* Footer Section */
 footer{
     background: rgba(255, 255, 255, 0.1);
-    /* mar */
 }
 .footer{
     display: flex;
