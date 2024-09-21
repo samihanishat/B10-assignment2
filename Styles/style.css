@@ -9,11 +9,16 @@
   font-style: normal;
 }
 
+body{
+    /* background: rgb(185, 185, 185); */
+    background: rgb(17, 17, 17);
+}
+
 /* header styles */
 header{
     background: linear-gradient(180.00deg, rgb(17, 17, 17),rgba(119, 119, 119, 0) 100%);
 }
-.header{
+.header, main{
     max-width: 1200px;
     margin: auto;
 }
@@ -121,4 +126,46 @@ p{
     font-size: 24px;
     color: rgb(250, 250, 249);
     margin: 5px;
+}
+
+/* main section */
+/* habit section */
+.habit{
+    text-align: center;
+}
+.habit img{
+    border-radius: 100px;
+    border: 4px solid rgba(247, 243, 243, 0.1);
+}
+.habit-card{
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    margin-top: 58px;
+}
+.habit-card p{
+    max-width: 230px;
+}
+.title2{
+    font-size: 48px;
+}
+
+/* Run section */
+.Run{
+    display: flex;
+    justify-content: space-between;
+    border-radius: 18px;
+    background: rgb(34, 34, 34);
+    padding: 30px;
+    margin: 100px 0;
+}
+.run-description{
+    max-width: 50%;
+    padding: 35px;
+}
+.run-description button{
+    margin-top: 30px;
+}
+.Run img{
+    border-radius: 18px;
 }
