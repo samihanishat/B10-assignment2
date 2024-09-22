@@ -15,6 +15,10 @@
         flex-direction: column;
         margin-left: 30px;
     }
+    .header-img img{
+        width: 100%;
+        /* max-width: 300px; */
+    }
     .header-card1{
         right: 0px;
     }
@@ -65,17 +69,27 @@
         padding: 20px;
         gap: 30px;
     }
+    .calculation-chart form{
+        column-gap: 12px;
+    }
+    .calculation-chart input{
+        padding: 5px;
+        width: 100%;
+    }
 
 
     .trainers{
         grid-template-columns: auto;
     }
-    .trainer1{
+    .trainer1, .trainer-img4, .trainer-img1{
         display: none;
     }
     .trainer4{
         display: none;
-        }
+    }
+    .trainer-img img{
+        margin: 10px auto;
+    }
 
 
     .footer{
