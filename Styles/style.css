@@ -9,6 +9,12 @@
   font-style: normal;
 }
 
+.shape{
+        font-family: 'MiamaNuevaMedium';
+        font-weight: 100;
+        font-style: italic;
+}
+
 body{
     /* background: rgb(185, 185, 185); */
     background: rgb(17, 17, 17);
