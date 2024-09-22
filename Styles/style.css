@@ -190,6 +190,9 @@ p{
     max-width: 670px;
     margin: 88px auto;
 }
+.title3{
+    font-size: 28px;
+}
 .BMI-calculator{
     background: rgb(34, 34, 34);
 }
@@ -224,7 +227,7 @@ td,th{
     border: 1px solid rgba(255, 255, 255, 0.1);
 } */
 
-.calculation-chart{
+.calculation-chart form{
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     gap: 10px;
@@ -232,12 +235,15 @@ td,th{
 .factor{
     grid-column: 1/3;
 }
-.calculation-chart p{
+.calculation-chart input{
     border-radius: 8px;
     background: rgba(255, 255, 255, 0.1);
     padding: 12px 20px;
     margin: 0;
     text-align: left;
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 1rem;
+    font-weight: 400;
 }
 
 
@@ -302,8 +308,12 @@ footer{
 footer a{
     text-decoration: none;
 }
+footer a p{
+    font-size: 23px;
+}
 .copyright{
     border-top: 2px solid rgba(255, 255, 255, 0.1);
     text-align: center;
     padding: 36px 0;
+    font-size: 20px;
 }
